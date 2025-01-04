@@ -1,4 +1,4 @@
-#import random
+import random
 
 player1 = input("Select Rock, Paper, or Scissor :").lower()
 player2 = random.choice(["Rock", "Paper", "Scissor"]).lower()
